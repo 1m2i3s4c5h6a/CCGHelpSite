@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+    background-image: url("Icon.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: 100% 100%;
+    top: 0;
+    z-index: -100;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+#icon {
+    display: block;
+    width: stretch;
+    height: stretch;
+    position: fixed;
+    opacity: 0.4;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+#end {
+    margin-top: 50px;
+}
+
+#klee {
+    width: 120px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screen {
+    width: 30%;
+    margin: 10px;
+}
